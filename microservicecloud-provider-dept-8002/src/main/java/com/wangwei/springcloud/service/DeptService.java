@@ -2,7 +2,7 @@ package com.wangwei.springcloud.service;
 
 import java.util.List;
 
-import com.wangwei.springcould.entities.Dept;
+import com.wangwei.springcloud.entities.Dept;
 
 public interface DeptService {
 

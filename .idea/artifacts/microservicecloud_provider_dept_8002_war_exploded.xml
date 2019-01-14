@@ -96,6 +96,11 @@
             <element id="module-output" name="microservicecloud-api" />
           </element>
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.18" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-feign:1.3.1.RELEASE" />
+          <element id="library" level="project" name="Maven: io.github.openfeign:feign-core:9.5.0" />
+          <element id="library" level="project" name="Maven: org.jvnet:animal-sniffer-annotation:1.0" />
+          <element id="library" level="project" name="Maven: io.github.openfeign:feign-slf4j:9.5.0" />
+          <element id="library" level="project" name="Maven: io.github.openfeign:feign-hystrix:9.5.0" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.0.4" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.31" />

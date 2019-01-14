@@ -1,4 +1,4 @@
-package com.wangwei.springcould.entities;
+package com.wangwei.springcloud.entities;
 
 import java.io.Serializable;
 

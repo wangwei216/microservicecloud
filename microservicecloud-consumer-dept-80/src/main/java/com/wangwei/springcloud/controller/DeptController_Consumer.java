@@ -1,6 +1,6 @@
 package com.wangwei.springcloud.controller;
 
-import com.wangwei.springcould.entities.Dept;
+import com.wangwei.springcloud.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

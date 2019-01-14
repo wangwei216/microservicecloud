@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.wangwei.springcloud.service.DeptService;
-import com.wangwei.springcould.entities.Dept;
+import com.wangwei.springcloud.entities.Dept;
 
 @RestController
 public class DeptController {

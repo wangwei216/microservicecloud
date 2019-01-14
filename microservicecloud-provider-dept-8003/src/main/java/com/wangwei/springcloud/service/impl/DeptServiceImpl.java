@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.wangwei.springcloud.dao.DeptDao;
 import com.wangwei.springcloud.service.DeptService;
-import com.wangwei.springcould.entities.Dept;
+import com.wangwei.springcloud.entities.Dept;
 
 @Service
 public class DeptServiceImpl  implements DeptService{

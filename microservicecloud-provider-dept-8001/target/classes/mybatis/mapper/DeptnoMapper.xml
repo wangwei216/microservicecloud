@@ -5,13 +5,13 @@
 
 <mapper namespace="com.wangwei.springcloud.dao.DeptDao">
 
-    <select id="findById" resultType="com.wangwei.springcould.entities.Dept" parameterType="java.lang.Long">
+    <select id="findById" resultType="com.wangwei.springcloud.entities.Dept" parameterType="java.lang.Long">
         select deptno,dname,db_source from dept where deptno=#{deptno};
     </select>
-    <select id="findAll" resultType="com.wangwei.springcould.entities.Dept">
+    <select id="findAll" resultType="com.wangwei.springcloud.entities.Dept">
         select deptno,dname,db_source from dept;
     </select>
-    <insert id="addDept" parameterType="com.wangwei.springcould.entities.Dept">
+    <insert id="addDept" parameterType="com.wangwei.springcloud.entities.Dept">
         INSERT INTO dept(dname,db_source) VALUES(#{dname},DATABASE());
     </insert>
 

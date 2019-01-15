@@ -14,7 +14,7 @@
 
   <dependencies>
 
-
+    <!--这个其实就是如果当你使用Hystrix的时候想要监控那个服务，就必须要在那个服务上必须要加入的依赖-->
       <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-actuator</artifactId>

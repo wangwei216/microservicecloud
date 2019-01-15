@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="microservicecloud-consumer-hystrix-dashboard:war">
+    <output-path>$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/target</output-path>
+    <root id="archive" name="microservicecloud-consumer-hystrix-dashboard.war">
+      <element id="artifact" artifact-name="microservicecloud-consumer-hystrix-dashboard:war exploded" />
+    </root>
+  </artifact>
+</component>

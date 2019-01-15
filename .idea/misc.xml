@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-eureka-7001" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-eureka-7002" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-eureka-7003" />

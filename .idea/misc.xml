@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-provider-dept-8002" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-provider-dept-8003" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

@@ -1,0 +1,38 @@
+server:
+  port: 9527
+
+##这里配置的是微服务的名字
+spring:
+  application:
+    name: microservicecloud-zuul-gateway
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+      instance:
+          #这里是新建的网关
+          #之前访问需要这个：http://localhost:8001/dept/get/2
+          #现在添加了这个的话：http://myzuul.com:9527/microservicecloud-dept/dept/get/2
+          instance-id: gateway-9527.com
+          prefer-ip-address: true
+
+info:
+  app.name: wangwei-microcloud
+  company.name: www.wangwei.com
+  build.artifactId: ${project.artifactId}$
+  build.version: ${project.version}$
+
+#这个是对zuul进行路由映射规则配置
+zuul:
+  routes:
+    #之前是通过微服务名字进行访问，现在意思就是修改之后的话都是把暴露出来的微服务名字用/mydept来进行替换，不用直接暴露微服务名称了
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**
+    #配置这个之后，就相当于把之前暴露原本的微服务给关闭掉，而只能使用我自己定义的mydept来进行代替之前的微服务名称来进行访问
+    #如果有很多个不想要暴露的微服务，可以直接使用“*”来进行代替
+  ignored-services: microservicecloud-dept
+  #这个是可以给自定义的伪装微服务的名字进行加一个前缀进行访问
+  prefix: /wangwei

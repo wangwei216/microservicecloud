@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-config-3344" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-config-client-3355" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-config-dept-client-8001" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-config-eureka-client-7001" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />

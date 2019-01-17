@@ -7,6 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-api" />
+        <module name="microservicecloud-config-3344" />
+        <module name="microservicecloud-config-client-3355" />
+        <module name="microservicecloud-config-dept-client-8001" />
+        <module name="microservicecloud-config-eureka-client-7001" />
         <module name="microservicecloud-consumer-dept-80" />
         <module name="microservicecloud-consumer-dept-feign" />
         <module name="microservicecloud-consumer-hystrix-dashboard" />
@@ -23,6 +27,10 @@
     <bytecodeTargetLevel>
       <module name="microservicecloud" target="1.8" />
       <module name="microservicecloud-api" target="1.8" />
+      <module name="microservicecloud-config-3344" target="1.7" />
+      <module name="microservicecloud-config-client-3355" target="1.7" />
+      <module name="microservicecloud-config-dept-client-8001" target="1.7" />
+      <module name="microservicecloud-config-eureka-client-7001" target="1.7" />
       <module name="microservicecloud-consumer-dept-80" target="1.7" />
       <module name="microservicecloud-consumer-dept-feign" target="1.7" />
       <module name="microservicecloud-consumer-hystrix-dashboard" target="1.7" />

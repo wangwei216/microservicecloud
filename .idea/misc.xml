@@ -14,6 +14,8 @@
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-provider-dept-8002" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-provider-dept-8003" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-sleuth-9090" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-sleuth-9431" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527" />
   </component>
   <component name="MavenProjectsManager">
@@ -21,6 +23,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/microservicecloud-sleuth-9431/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

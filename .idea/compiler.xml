@@ -21,6 +21,7 @@
         <module name="microservicecloud-provider-dept-8002" />
         <module name="microservicecloud-provider-dept-8003" />
         <module name="microservicecloud-provider-dept-hystrix-8001" />
+        <module name="microservicecloud-sleuth-9090" />
         <module name="microservicecloud-zuul-gateway-9527" />
       </profile>
     </annotationProcessing>
@@ -41,6 +42,8 @@
       <module name="microservicecloud-provider-dept-8002" target="1.7" />
       <module name="microservicecloud-provider-dept-8003" target="1.7" />
       <module name="microservicecloud-provider-dept-hystrix-8001" target="1.7" />
+      <module name="microservicecloud-sleuth-9090" target="1.7" />
+      <module name="microservicecloud-sleuth-9431" target="1.7" />
       <module name="microservicecloud-zuul-gateway-9527" target="1.7" />
     </bytecodeTargetLevel>
   </component>

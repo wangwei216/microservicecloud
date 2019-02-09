@@ -35,8 +35,8 @@ eureka:
 
 
 info:
-  app.name: atguigu-microservicecloud
+  app.name: atguigu-microservicecloud-8001
   company.name: www.wangwei.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: microservicecloud-provider-dept-8001$
+  build.version: 0.0.1-SNAPSHOT$
 

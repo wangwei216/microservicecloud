@@ -2,21 +2,21 @@ package com.wangwei.springcloud.controller;
 
 import java.util.List;
 
+import feign.RequestTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.wangwei.springcloud.service.DeptService;
 import com.wangwei.springcloud.entities.Dept;
+import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class DeptController {
 
 	 @Autowired
 	  private DeptService service;
+
+
 
 	  @RequestMapping(value="/dept/add",method=RequestMethod.POST)
 	  public boolean add(@RequestBody Dept dept){
@@ -37,6 +37,10 @@ public class DeptController {
 	   return service.list();
 	  }
 
-	  
+	@RequestMapping(value = "/service1", method = RequestMethod.GET)
+	public String service1() {
+		return "Hello , 我是service1";
+
+	}
 	
 }

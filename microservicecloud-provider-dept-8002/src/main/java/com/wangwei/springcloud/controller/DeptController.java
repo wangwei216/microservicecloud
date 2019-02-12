@@ -37,6 +37,10 @@ public class DeptController {
 	   return service.list();
 	  }
 
-	  
-	
+
+
+	  @RequestMapping(value = "/services2",method = RequestMethod.GET)
+	  public String testServices2(){
+	  	return "Hello,wangwei!";
+	  }
 }

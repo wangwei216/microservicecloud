@@ -23,6 +23,13 @@ spring:
       initial-size: 5                                       # 初始化连接数
       max-total: 5                                          # 最大连接数
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+  #这个是把微服务的提供者给注册到zipkin的服务器的地址上
+   zipkin:
+     base-url: http://localhost:9090
+  #这个是建议在测试的时候，对日志进行百分之百的日志收集
+   sleuth:
+     sampler:
+       percentage: 1.0
 
 
 eureka:
@@ -40,3 +47,7 @@ info:
   build.artifactId: ${project.artifactId}$
   build.version: ${project.version}$
 
+
+logging:
+  level:
+    root: debug
